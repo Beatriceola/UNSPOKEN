@@ -34,9 +34,8 @@
 
 }
 
-.img {
-    max-width: 100%;
-    max-width: 100%;
+.logo {
+    width: 50%;
 }
 
 .toggle {
@@ -145,6 +144,11 @@
     transform: scale(0.5) translateY(-15px)
 } 
 
+.social li a img {
+    width: 70px;
+
+}
+
 @media(max-width: 991px) {
     .showcase, .showcase header {
         padding: 40px;
@@ -154,5 +158,5 @@
         font-size: 3em;
     }
 
-    .text h3
+    .text h3{
 }
