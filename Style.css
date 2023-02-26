@@ -35,7 +35,7 @@
 }
 
 .logo {
-    width: 50%;
+    width: 20%;
 }
 
 .toggle {
@@ -50,7 +50,24 @@
 }
 
 .menu {
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    color: grey;
+}
+
+.menu ul li {
+    width: 120px;
+    margin: 15px 30px 15px 0; 
+    padding: 15px;
+    position: right;
+
 }
 
 .showcase video {
@@ -70,7 +87,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: blue;
+    background: grey;
     mix-blend-mode: overlay;
 
 }
@@ -143,6 +160,7 @@
 .social li a:hover {
     transform: scale(0.5) translateY(-15px)
 } 
+
 
 .social li a img {
     width: 70px;
